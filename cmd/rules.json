@@ -1,0 +1,17 @@
+{
+    "rules": [
+      {
+        "condition": "connections > 10",
+        "criticality": "HIGH"
+      },
+      {
+        "condition": "connections >= 5 && connections <= 10",
+        "criticality": "MEDIUM"
+      },
+      {
+        "condition": "connections < 5",
+        "criticality": "LOW"
+      }
+    ]
+  }
+  

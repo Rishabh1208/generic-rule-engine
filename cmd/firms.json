@@ -1,0 +1,20 @@
+{
+    "firms": [
+      {
+        "name": "FirmA",
+        "connections": 12,
+        "region": "APAC"
+      },
+      {
+        "name": "FirmB",
+        "connections": 7,
+        "region": "EMEA"
+      },
+      {
+        "name": "FirmC",
+        "connections": 3,
+        "region": "EMEA"
+      }
+    ]
+  }
+  

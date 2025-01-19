@@ -2,6 +2,7 @@ package ingestion
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"os"
 	// etc.
@@ -19,6 +20,7 @@ type FileIngestion struct {
 
 // FetchData implements the DataIngestion interface.
 func (f *FileIngestion) FetchData() ([]map[string]interface{}, error) {
+	fmt.Println(f.FilePath)
 	file, err := os.Open(f.FilePath)
 	if err != nil {
 		return nil, err
